@@ -9,53 +9,54 @@
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    <header>
-        <div class="header">
-            <h1>Invoice creator</h1>
-            <p>Thanks for choosing GoodCorp, LLC!</p>
+    <div class="container">
+        <div id="header">
+            <div class="header">
+                <h1>Invoice creator</h1>
+                <p>Thanks for choosing GoodCorp, LLC!</p>
+            </div>
         </div>
-    </header>
-    <main>
-        <div id="btn-container">
-            <button id="washcar-btn" class="service-btn">Wash Car: $10</button>
-            <button id="mowlawn-btn" class="service-btn">Mow Lawn: $20</button>
-            <button id="pullweeds-btn" class="service-btn">Pull Weeds: $30</button>
-        </div>
-
-        <table>
-            <thead>
-                <tr>
-                    <th class="left">Task</th>
-                    <th class="right">Total</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>
-                        <ul id="service-list">
-                            <!-- rendered list items (services) go here once button is clicked -->
-                        </ul>
-                    </td>
-                    <td>
-                        <ul id="price-list">
-                            <!-- rendered list items (prices) go here once button is clicked -->
-                        </ul>
-                    </td>
-                </tr>
-            </tbody>
-            <tfoot>
-                <tr>
-                    <th class="left">Notes</th>
-                    <th class="right">Total Amount</th>
-                </tr>
-                <tr>
-                    <td class="left note">We accept cash, credit card, or PayPal</td>
-                    <td id="total-price" class="right"></td>
-                </tr>
-            </tfoot>
-        </table>
-        <button id="send-btn">Send invoice</button>
-    </main>
+        <main>
+            <div id="btn-container">
+                <button id="washcar-btn" class="service-btn">Wash Car: $10</button>
+                <button id="mowlawn-btn" class="service-btn">Mow Lawn: $20</button>
+                <button id="pullweeds-btn" class="service-btn">Pull Weeds: $30</button>
+            </div>
+            <table>
+                <thead>
+                    <tr>
+                        <th class="left">Task</th>
+                        <th class="right">Total</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <ul id="service-list">
+                                <!-- rendered list items (services) go here once button is clicked -->
+                            </ul>
+                        </td>
+                        <td>
+                            <ul id="price-list">
+                                <!-- rendered list items (prices) go here once button is clicked -->
+                            </ul>
+                        </td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <th class="left">Notes</th>
+                        <th class="right">Total Amount</th>
+                    </tr>
+                    <tr>
+                        <td class="left note">We accept cash, credit card, or PayPal</td>
+                        <td id="total-price" class="right"></td>
+                    </tr>
+                </tfoot>
+            </table>
+            <button id="send-btn">Send invoice</button>
+        </main>
+    </div>
     <script src="index.js"></script>
 </body>
 </html>
