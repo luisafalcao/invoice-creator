@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 550px;
+    height: 155px;
+    font-family: 'Inter', sans-serif;
+}
+
+header {
+    height: 190px;
+    background-color: #3A69D2;
+    color: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+header h1 {
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 40px;
+    margin-bottom: 0;
+}
+
+header p {
+    font-size: 16px;
+    line-height: 28px;
+    margin-top: 0;
+}
+
+main {
+    background-color: #1F2937;
+    padding: 40px;
+}
+
+button {
+    cursor: pointer;
+}
+
+#btn-container {
+    width: 473px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+}
+
+.service-btn {
+    height: 45px;
+    width: 143px;
+    background-color: #D1D4F4;
+    color: #4A4E74;
+    border: 1px solid #000;
+    border-radius: 7px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.service-btn:active {
+    border-color: #D5D4D8
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+    margin: 0
+}
+
+table {
+    color: #F5F5F5;
+    width: 100%;
+}
+
+tr {
+    height: 40px;
+}
+
+th {
+    font-size: 12px;
+    line-height: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #D5D4D8;
+}
+
+.left {
+    text-align: left;
+}
+
+.right {
+    text-align: right;
+}
+
+.description {
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 700;
+    text-align: left;
+}
+
+.price {
+    font-size: 24px;
+    line-height: 30px;
+    text-align: right;
+}
+
+.price span {
+    color: #918E9B;
+    font-weight: 300;
+}
+
+tfoot {
+    border-top: 1px solid #C3C6DB
+}
+
+.note {
+    font-size: 12px;
+    line-height: 15px;
+}
+
+#total-price {
+    font-size: 36px;
+    line-height: 32px;
+    font-weight: 600;
+}
+
+#send-btn {
+    width: 100%;
+    height: 44px;
+    background-color: #3A69D2;
+    color: #FFF;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    border: 1px solid #000;
+    border-radius: 7px;
+    margin-top: 40px;
+}
